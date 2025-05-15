@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@theme {
+    --color-yahoo: #7d2dfe;
+    --color-backGround: #eff3f6;
+    --color-hover: #6001d0;
+    --font-yahoo: "yahoo", "sans-serif";
+
+}
+@font-face {
+    font-family: yahoo;
+    src: url("../font/Roboto-VariableFont_wdth\,wght.ttf") format("TrueType");
+}
+.toast-bottom-center {
+    position: fixed !important;
+    bottom: 20px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+  

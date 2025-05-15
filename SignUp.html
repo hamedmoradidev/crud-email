@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/output.css">
+</head>
+<body class="min-h-lvh bg-backGround">
+    <main class="font-yahoo flex flex-wrap">
+        <div class="bg-red-600 text-white">DISCLAIMER: THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official site of the company or brand identified on the page. The creator of this page is NOT affiliated with the company or brand in any way. This page is a personal project made in connection with an educational exercise.</div>
+        <nav class="text-yahoo text-[13px] bg-white flex justify-between w-full h-20 px-16">
+            <a href="index.html">
+                <figure class="h-full flex justify-center items-center">
+                <img class="h-9" src="src/img/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="">
+            </figure>
+            </a>
+              <ul class="flex items-center justify-between h-full w-36">
+                <li class="h-full flex justify-center items-center"><a class="h-full flex justify-center items-center" href="">Help</a></li>
+                <li class="h-full flex justify-center items-center"><a class="h-full flex justify-center items-center" href="">Terms</a></li>
+                <li class="h-full flex justify-center items-center"><a class="h-full flex justify-center items-center" href="">Privacy</a></li>
+            </ul>
+        </nav>
+        <div class="bg-backGround flex justify-center items-center w-full py-5">
+            <div class="bg-white flex flex-wrap justify-center items-center w-[360px] rounded-2xl p-8">
+                <img class="h-7 mb-4" src="src/img/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="">
+                <h2 class="w-full text-center text-[23px] font-bold">Create a Yahoo account</h2>
+                <p class="w-full text-center text-[15px] font-light mb-10">Access all that Yahoo has to offer with a single account. All fields are required.</p>
+                <form class="" action="">
+                    <input class="border-b outline-0 w-full mb-10" type="text" placeholder="Full name">
+                    <input class="border-b outline-0 w-full mb-10" type="text" placeholder="New Yahoo email address">
+                    <input class="border-b outline-0 w-full mb-10" type="text" placeholder="Password">
+                    <span class="w-full text-[13px] flex flex-wrap justify-center mt-5"><p>By continuing, you agree to our <a class="text-yahoo" href="">Terms</a> and </p><a class="text-yahoo" href="">Privacy Policy</a></span>
+                    <button id="signUpBtn" class="bg-yahoo w-full h-10 text-white rounded-4xl hover:bg-hover my-5 cursor-pointer">Sign up</button>
+                </form>
+                <span class=" w-full text-center text-[15px]">Already have an account? <a class="text-yahoo" href="index.html">Sign in</a></span>
+                <a class="border w-full rounded-4xl flex items-center justify-center h-10 mt-5 gap-3 cursor-not-allowed" href=""><img class="h-5" src="src/img/google-logo-6278331_640.png" alt="">Sign in with Google</a>
+            </div>
+        </div>
+    </main>
+    <div id="aboutMe" class="flex lg:flex-wrap justify-between w-full lg:w-[300px] lg:max-w-sm items-center relative lg:sticky top-0 left-0 lg:left-5 lg:bottom-5 bg-white text-black lg:rounded-xl lg:p-6 shadow-xl cursor-pointer p-4">
+        <h2 class="w-full text-center text-sm lg:text-lg font-semibold mb-4">Developed by Hamed Moradi</h2>
+              <div class="flex justify-evenly w-full space-x-2 mb-4">
+          <a href="https://www.linkedin.com/in/haamedmoradiidev/" target="_blank">
+            <img class="h-6 lg:h-8" src="src/img/linkedin.webp" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/hamedmoradidev" target="_blank">
+            <img class="h-6 lg:h-8" src="src/img/github.svg" alt="GitHub">
+          </a>
+          <a href="https://instagram.com/hamed.moradi.dev" target="_blank">
+            <img class="h-6 lg:h-8" src="src/img/instagram.webp" alt="Instagram">
+          </a>
+        </div>
+            <div class="w-full text-center">
+          <h6 class="text-gray-800 mb-2 font-semibold">Super Admin</h6>
+          <p class="text-xs lg:text-sm text-gray-700">
+            <strong>Email:</strong><span class="italic"> admin@yahoo.com</span><br>
+            <strong>Password:</strong><span class="italic"> admin</span>
+          </p>
+        </div>
+      </div>  
+</body>
+<script type="module" src="SignUp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</html>
